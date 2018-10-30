@@ -3,4 +3,4 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 
 
-![GitHub Logo](/readme_images/logo.png)
+![top20songsapp](readme_images/top20songs.png)
