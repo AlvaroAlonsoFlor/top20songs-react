@@ -1,11 +1,14 @@
 import React from 'react';
 import Song from './Song.js';
 
-const SongList = () => {
+const SongList = (props) => {
+    const songList = props.songs.map((song) => {
+        return <Song song={song} />
+    })
+
     return (
-        <div>
-            It will return a list
-            <Song />
+        <div className="song-list">
+            {songList}
         </div>
 
     )

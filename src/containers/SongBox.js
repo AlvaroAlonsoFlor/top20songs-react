@@ -25,7 +25,7 @@ export default class SongBox extends Component {
 
     render() {
         return(
-            <SongList />
+            <SongList songs={this.state.songs}/>
         )
     }
 }
