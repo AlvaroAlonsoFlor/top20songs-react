@@ -3,7 +3,7 @@ import Song from './Song.js';
 
 const SongList = (props) => {
     const songList = props.songs.map((song) => {
-        return <Song song={song} />
+        return <Song song={song} key={song.id.attributes['im:id']}/>
     })
 
     return (
