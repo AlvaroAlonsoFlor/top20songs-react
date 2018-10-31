@@ -7,9 +7,7 @@ export default class SongBox extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            songs: [],
-            yehhaaa: 'is working',
-            currentSong: null
+            songs: []
         }
     }
 
@@ -20,7 +18,6 @@ export default class SongBox extends Component {
             .then((data) => this.setState({
                 songs: data.feed.entry
             }));
-        console.log(this.state.songs);
     }
 
     render() {

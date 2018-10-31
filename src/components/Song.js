@@ -7,7 +7,6 @@ const Song = (props) => {
     const artist = props.song['im:artist'].label;
     const genre = props.song.category.attributes.label;
     const audio = props.song.link[1].attributes.href;
-    console.log(audio);
     
 
     return(
